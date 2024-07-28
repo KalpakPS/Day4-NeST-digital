@@ -1,6 +1,8 @@
 h5{
     font-size: 20px;
-    padding: 20px 0;
+    padding: 10px 0;
+    line-height: 33px;
+    font-weight: 600;
 }
 .footprint{
     font-family: "Montserrat", sans-serif;
@@ -9,10 +11,20 @@ h5{
     font-style: normal;
     line-height: 33px;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 .map{
     width: 1200px;
     margin:auto;
     padding: 20px;
-  }
+}
+.country {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 120px;  
+}
+h6{
+    font-weight: 600;
+    line-height: 26px;
+    color: rgb(100, 107, 113);
+}
