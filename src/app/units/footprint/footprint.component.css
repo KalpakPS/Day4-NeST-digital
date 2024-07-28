@@ -1,0 +1,18 @@
+h5{
+    font-size: 20px;
+    padding: 20px 0;
+}
+.footprint{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 33px;
+    text-align: center;
+    padding: 20px 0;
+}
+.map{
+    width: 1200px;
+    margin:auto;
+    padding: 20px;
+  }
