@@ -1,0 +1,13 @@
+.img-fluid{
+    width: 45%;
+    float: right;
+    margin-left: 20px;
+  }
+  p{
+    padding: 217px 30px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #edf1fe;
+    color: #31437b;
+  }
+  

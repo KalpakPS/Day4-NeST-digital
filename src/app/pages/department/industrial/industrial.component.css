@@ -1,0 +1,17 @@
+.img-fluid{
+    width: 50%;
+    float: left;
+    margin-right: 20px;
+  }
+  p{
+    padding: 147px 50px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #edf1fe;
+    color: #31437b;
+  }
+  .temp{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #31437b;
+    text-align: center;
+  }
