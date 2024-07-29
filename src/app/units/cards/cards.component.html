@@ -1,6 +1,3 @@
-<div class="button">
-  <a class="btn btn-outline-warning" routerLink="contact" role="button">testing</a>
-</div>
 <div class="container">
     <div class="row" style="padding: 20px 0;">
       @for (item of department; track item.id) {
@@ -10,7 +7,7 @@
             <div class="card-body">
               <h5 class="card-title">{{item.title}}</h5>
               <p class="card-text">{{item.description}}</p>
-              <a class="btn btn-primary" routerLink="{{item.link}}">Visit</a>
+              <a class="btn btn-primary" routerLink="/{{item.link}}">Visit</a>
             </div>
           </div>
         </div>
