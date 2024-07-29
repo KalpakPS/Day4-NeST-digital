@@ -12,11 +12,6 @@ import { LocomotiveComponent } from './pages/department/locomotive/locomotive.co
 import { IndustrialComponent } from './pages/department/industrial/industrial.component';
 import { MobileComponent } from './pages/department/mobile/mobile.component';
 import { SecurityComponent } from './pages/department/security/security.component';
-import { USAComponent } from './units/maps/usa/usa.component';
-import { INDIAComponent } from './units/maps/india/india.component';
-import { UAEComponent } from './units/maps/uae/uae.component';
-import { JAPANComponent } from './units/maps/japan/japan.component';
-import { LONDONComponent } from './units/maps/london/london.component';
 
 export const routes: Routes = [
     {path: '',component:HomeComponent},
@@ -32,9 +27,4 @@ export const routes: Routes = [
     {path:"industrial",component:IndustrialComponent},
     {path:"mobility",component:MobileComponent},
     {path:"security",component:SecurityComponent},
-    {path:"usa",component:USAComponent},
-    {path:"india",component:INDIAComponent},
-    {path:"uae",component:UAEComponent},
-    {path:"japan",component:JAPANComponent},
-    {path:"london",component:LONDONComponent}
-];
+]
