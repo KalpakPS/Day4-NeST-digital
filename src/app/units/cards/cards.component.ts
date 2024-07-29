@@ -63,7 +63,7 @@ export class CardsComponent {
     {
       id:8,
       title:"Security",
-      image:"../../../../assets/Rectangle-85-1.jpg",
+      image:"../../../assets/Rectangle-85-1 - Copy.jpg",
       description:"Robust cybersecurity measures protecting data, infrastructure, and operations across industries.",
       link:"security"
     }
