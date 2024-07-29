@@ -1,23 +1,25 @@
 <div class="footprint">
     <h5>Global Footprint</h5>
     <div class="country">
-      <button type="button" class="btn" >
+      <button type="button" class="btn" (click)="setLocation('https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d5833.01733188599!2d-88.115941!3d43.030728!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDPCsDAxJzUwLjYiTiA4OMKwMDYnNDguMSJX!5e0!3m2!1sen!2sin!4v1722098229231!5m2!1sen!2sin')">
           <h6>USA</h6>     
       </button>
-      <button type="button" class="btn" >
+      <button type="button" class="btn" (click)="setLocation('https://www.google.com/maps/d/embed?mid=1BvQ1Vsqi3VA7b41dOix_gccM7yhy3Iw&ehbc=2E312F')">
         <h6>INDIA</h6>
       </button>
-      <button type="button" class="btn" >
+      <button type="button" class="btn" (click)="setLocation('https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d28876.574649576098!2d55.250337!3d25.217658!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDEzJzAxLjEiTiA1NcKwMTYnMzkuMyJF!5e0!3m2!1sen!2sin!4v1722235821315!5m2!1sen!2sin')">
         <h6>UAE</h6>
       </button>
-      <button type="button" class="btn" >
+      <button type="button" class="btn" (click)="setLocation('https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d6482.522803363473!2d139.770512!3d35.670565!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDQwJzE0LjAiTiAxMznCsDQ2JzIzLjEiRQ!5e0!3m2!1sen!2sin!4v1722236217119!5m2!1sen!2sin')">
         <h6>JAPAN</h6>
       </button>
-      <button type="button" class="btn" >
+      <button type="button" class="btn" (click)="setLocation('https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d4965.539617547376!2d-0.07906!3d51.517439!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTHCsDMxJzAyLjgiTiAwwrAwNCczNS40Ilc!5e0!3m2!1sen!2sin!4v1722236312865!5m2!1sen!2sin')">
         <h6>LONDON</h6>
       </button>
     </div>
 </div>
 <div class="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d5833.01733188599!2d-88.115941!3d43.030728!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDPCsDAxJzUwLjYiTiA4OMKwMDYnNDguMSJX!5e0!3m2!1sen!2sin!4v1722098229231!5m2!1sen!2sin" width="1200" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+    <iframe id="mapFrame" width="1200" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+      src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d5833.01733188599!2d-88.115941!3d43.030728!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDPCsDAxJzUwLjYiTiA4OMKwMDYnNDguMSJX!5e0!3m2!1sen!2sin!4v1722098229231!5m2!1sen!2sin">
+  </iframe>        
 </div>

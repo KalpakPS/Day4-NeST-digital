@@ -10,13 +10,11 @@ import { RouterLink } from '@angular/router';
 })
 export class FootprintComponent {
   title = 'map-switcher';
-  latitude = 43.0306;  // Default latitude
-  longitude = -88.1134; // Default longitude
-
+  
   // Method to change the map's location
-  setLocation(lat: number, lng: number) {
-    this.latitude = lat;
-    this.longitude = lng;
+  setLocation(url: string) {
+    const mapFrame = document.getElementById('mapFrame') as HTMLIFrameElement;
+    mapFrame.src = url;
   }
 }
 

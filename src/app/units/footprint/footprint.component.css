@@ -28,3 +28,6 @@ h6{
     line-height: 26px;
     color: rgb(100, 107, 113);
 }
+h6:hover{
+    color: #1f8bed;
+}
